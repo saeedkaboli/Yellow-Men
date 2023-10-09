@@ -1,0 +1,71 @@
+@keyframes test {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 200%;
+    }
+  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+@font-face {
+    font-family:Mokhtar;
+    src: url(../Font/Mj_Mokhtar.ttf);
+}
+@font-face {
+    font-family:Lalezar;
+    src: url(../Font/Lalezar-Regular.ttf);
+}
+@font-face {
+    font-family:Eng;
+    src: url(../Font/FontEn.ttf);
+}
+.Full {
+    width: 100%;
+    height: 100vh;
+    position:absolute;
+    overflow: hidden;
+    z-index: 200;
+  }
+  .Top-yellow,
+  .bottom-yellow {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: hsl(44, 94%, 49%);
+    transition: 1s;
+  }
+  .Top-yellow {
+    top: 0;
+  }
+  .bottom-yellow {
+    bottom: 0;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+  }
+  .bottom-yellow > h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    font-weight: 300;
+    color: #000;
+  }
+  .Line-Cut {
+    width: 10px;
+    height: 5px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: test;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+  }
+
+
+ 
