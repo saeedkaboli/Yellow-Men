@@ -1,4 +1,5 @@
-import { CountUp } from "../../node_modules/countup.js/dist/countUp.min.js";
+import { CountUp } from "countup.js";
+
 //-----------------------The PreLoader
 const Dom = {
   Top: document.getElementById("Top"),
