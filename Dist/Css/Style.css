@@ -741,6 +741,10 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
+.p-\[\FFFDY\FFFDy\FFFD\] {
+  padding: �Y�y�;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -828,6 +832,10 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.\[i78\:\FFFD\>\FFFD\FFFD B\FFFDp\FFFD\FFFD\FFFD-\1E\FFFD\] {
+  i78: �>��B�p���-�;
 }
 
 .hover\:border-b-8:hover {
