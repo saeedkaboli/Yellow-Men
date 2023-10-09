@@ -1,5 +1,5 @@
 // import Poiner from "./Pointer.js";
-import preLoader from "./Preloader.js";
+import preLoader from './Preloader.js';
 const Menu = {
   Home: document.getElementById("NavBar"),
 };
